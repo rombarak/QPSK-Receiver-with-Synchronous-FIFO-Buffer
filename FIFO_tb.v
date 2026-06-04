@@ -2,7 +2,7 @@
 
 module fifo_tb() ;
 
-localparam SUM_OF_STUDENTS_ID = 212291215 + 209020825 ;  // Please Update to your actual ID numbers
+localparam SUM_OF_STUDENTS_ID = 987654321 + 987654321 ;  // Please Update to your actual ID numbers
 
 localparam FIFO_DEPTH = 16 + SUM_OF_STUDENTS_ID % 16 ;   // Some Value between 16 and 32
 localparam FIFO_WIDTH = 8 + SUM_OF_STUDENTS_ID % 8 ;     // Some Value between 8 and 16 bits
