@@ -64,5 +64,5 @@ A comprehensive testbench (`QPSK_with_FIFO_tb.v`) was developed to validate func
 ## Simulation Setup
 To run the simulation, ensure all source files and the message header file are located in the same working directory. The RTL is fully synthesizable and compatible with standard Verilog simulators (e.g., Cadence Xcelium/IRUN, ModelSim, Vivado).
 
-Example execution using Cadence IRUN:
-`irun -sv QPSK_with_FIFO_tb.v QPSK_with_FIFO.v QPSK_rx.v FIFO.v`
+Example execution using Cadence XRUN:
+`xrun -sv QPSK_with_FIFO_tb.v QPSK_with_FIFO.v QPSK_rx.v FIFO.v`
